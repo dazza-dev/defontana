@@ -1,0 +1,36 @@
+{
+  "name": "dazza-dev/defontana",
+  "description": "Defontana ERP Client API",
+  "license": "MIT",
+  "keywords": [
+    "defontana",
+    "ERP",
+    "PHP"
+  ],
+  "require": {
+    "php": ">=8.0",
+    "guzzlehttp/guzzle": "^7.9"
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true
+  },
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Andres Daza",
+      "email": "adaza90@outlook.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "DazzaDev\\Defontana\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "DazzaDev\\Defontana\\Tests\\": "tests/"
+    }
+  }
+}
