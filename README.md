@@ -62,6 +62,10 @@ Ver ejemplo completo en [SendSale.md](./SendSale.md).
 
 Ver ejemplo completo en [SendCreditNote.md](./SendCreditNote.md).
 
+## Enviar Nota de Crédito (corregir monto o texto)
+
+Ver ejemplo completo en [SendTypeCreditNote.md](./SendTypeCreditNote.md).
+
 ## Contribuciones
 
 Contribuciones son bienvenidas. Si encuentras algún error o tienes ideas para mejoras, por favor abre un issue o envía un pull request. Asegúrate de seguir las guías de contribución.

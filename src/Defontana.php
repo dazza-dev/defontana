@@ -97,7 +97,7 @@ class Defontana
     }
 
     /**
-     * Save Credit Note
+     * Generar nota crédito
      */
     public function saveCreditNote(array $data)
     {
@@ -108,7 +108,7 @@ class Defontana
     }
 
     /**
-     * Save Type Credit Note
+     * Generar una nota de crédito para corregir monto o texto
      */
     public function saveTypeCreditNote(array $data)
     {
