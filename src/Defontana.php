@@ -48,6 +48,22 @@ class Defontana
     }
 
     /**
+     * Consult document stamping (TED)
+     */
+    public function getTed(
+        int $folio = 0,
+        ?string $documentType = null
+    ) {
+        return $this->getClient()->get('sale/GetTed', [
+            'query' => [
+                'folio' => $folio,
+                'documentType' => $documentType,
+            ],
+            'headers' => $this->getHeaders(),
+        ]);
+    }
+
+    /**
      * Get Clients
      */
     public function getClients(
