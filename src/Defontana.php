@@ -95,4 +95,26 @@ class Defontana
             'json' => $data,
         ]);
     }
+
+    /**
+     * Save Credit Note
+     */
+    public function saveCreditNote(array $data)
+    {
+        return $this->getClient()->post('sale/SaveCreditNote', [
+            'headers' => $this->getHeaders(),
+            'json' => $data,
+        ]);
+    }
+
+    /**
+     * Save Type Credit Note
+     */
+    public function saveTypeCreditNote(array $data)
+    {
+        return $this->getClient()->post('sale/SaveTypeCreditNote', [
+            'headers' => $this->getHeaders(),
+            'json' => $data,
+        ]);
+    }
 }
