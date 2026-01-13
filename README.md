@@ -58,6 +58,10 @@ $clients = $client->getClients();
 
 Ver ejemplo completo en [SendSale.md](./SendSale.md).
 
+## Enviar Nota de Crédito
+
+Ver ejemplo completo en [SendCreditNote.md](./SendCreditNote.md).
+
 ## Contribuciones
 
 Contribuciones son bienvenidas. Si encuentras algún error o tienes ideas para mejoras, por favor abre un issue o envía un pull request. Asegúrate de seguir las guías de contribución.
